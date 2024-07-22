@@ -1,0 +1,12 @@
+﻿using My.Infrastructure.Monitoring.AzureApplicationInsights;
+using My.Infrastructure.Monitoring.MiniProfiler;
+
+namespace My.Infrastructure.Monitoring
+{
+    public class MonitoringOptions
+    {
+        public MiniProfilerOptions MiniProfiler { get; set; }
+
+        public AzureApplicationInsightsOptions AzureApplicationInsights { get; set; }
+    }
+}
